@@ -44,5 +44,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.GEOAPIFY_TOKEN = 'fb9ab64d880e45a4ae1bc6c08a8ebfac';
+
   return ENV;
 };
