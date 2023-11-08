@@ -352,77 +352,77 @@ p {
   height: 150px;
 }
 
-.rental.detailed {
+.rental.detail {
   background: none;
   align-items: flex-start;
 }
 
-.rental.detailed .image {
+.rental.detail .image {
   flex-basis: 320px;
 }
 
-.rental.detailed .image.large {
+.rental.detail .image.large {
   margin: 30px 25px 50px;
   flex-basis: 100%;
 }
 
-.rental.detailed .details {
+.rental.detail .details {
   height: auto;
 }
 
-.rental.detailed h3 {
+.rental.detail h3 {
   font-size: 200%;
   margin-bottom: 10px;
 }
 
-.rental.detailed .detail {
+.rental.detail .detail {
   margin: 5px 0;
   flex-basis: 100%;
   flex-shrink: 2;
 }
 
-.rental.detailed .description {
+.rental.detail .description {
   white-space: normal;
   flex-basis: 100%;
   flex-shrink: 1;
 }
 
-.rental.detailed .map {
+.rental.detail .map {
   flex-basis: 100%;
   margin: 50px 25px 25px;
 }
 
-.rental.detailed .map img {
+.rental.detail .map img {
   width: 100%;
   height: auto;
 }
 
 @media only screen and (width <= 919px) {
-  .rental.detailed .image,
-  .rental.detailed .image.large {
+  .rental.detail .image,
+  .rental.detail .image.large {
     margin: 30px 25px 25px;
     flex-basis: 100%;
     cursor: default;
   }
 
-  .rental.detailed .image:hover {
+  .rental.detail .image:hover {
     flex-basis: 100%;
     cursor: default;
   }
 
-  .rental.detailed .image small {
+  .rental.detail .image small {
     display: none;
   }
 
-  .rental.detailed button.image:hover::after {
+  .rental.detail button.image:hover::after {
     opacity: 0;
   }
 
-  .rental.detailed button.image:focus::after {
+  .rental.detail button.image:focus::after {
     opacity: 0.1;
   }
 
-  .rental.detailed .map {
+  .rental.detail .map {
     margin-top: 25px;
   }
 }
